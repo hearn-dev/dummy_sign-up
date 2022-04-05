@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#page {
+    justify-content: flex-start;
+
+}
+
+
+
+#swordLogo {
+    height: 50px;
+}
+
+#title {
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 100vh;
+    width: 45vw;
+    background-image: url(./resources/castle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'MedievalSharp', cursive;
+
+}
+#textOver {
+    height: 85px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+#textOver img {
+    padding-right: 10px;
+}
+
+#cred {
+    opacity: .45;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#intro {
+    padding: 10%;
+}
+
+#signUp {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.form {
+    width: 27.5vw;
+    background-color: grey;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    height: 8vh;
+    width: 50%;
+}
+
+label {
+    font-size: .75rem;
+}
+
+button {
+    margin: auto;
+}
